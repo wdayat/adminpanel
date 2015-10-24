@@ -86,12 +86,13 @@ ul#nav li a.selected {
  width: auto;
     margin-left: 250px;
     height: 100%;
-    background-color: #fff;
+    background-color: #95a5a6;
     padding: 15px;
 }
 
 .content p{
-    
+   color: #424242;
+    font-size: 0.8em;
 }
 
 
