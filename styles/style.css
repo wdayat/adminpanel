@@ -3,6 +3,7 @@ import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -32,8 +33,26 @@ div#header{
    font-size: 1.3em;
     color: #fff;
        
-}
+} 
 
 .logo a span {
   font-weight: 300;  
+}
+
+div#container{
+    width: 100%;/*always*/
+    margin: 0 auto;
+}
+
+.siderbar {
+ width:250px;
+    height: 100%;
+    background-color: #010101;
+    float: left;
+}
+
+.content {
+ width: auto;
+    height: 100%;
+    background-color: #fff
 }
