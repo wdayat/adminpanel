@@ -58,3 +58,34 @@ div#container{
     background-color: #fff;
     padding: 15px;
 }
+
+ul#nav {
+    
+}
+
+ul#nav li{
+list-style: none;
+}
+
+ul#nav li a{
+color: #ccc;
+    display: block;
+    padding: 10px;
+    font-size: 0.8em;
+    border-bottom: 1px solid #OAOAOA;
+    -webkit-transition: 0.2s;
+     -moz-transition: 0.2s;
+     -o-transition: 0.2s;
+     transition: 0.2s;
+}
+
+ul#nav li a:hover{
+ background-color: #030303;
+    color: #fff;
+}
+
+ul#nav li a.selected {
+  background-color: #030303;
+     color: #fff;
+    padding-left: 30px;
+}
