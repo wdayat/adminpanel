@@ -44,15 +44,17 @@ div#container{
     margin: 0 auto;
 }
 
-.siderbar {
+.sidebar {
  width:250px;
     height: 100%;
-    background-color: #010101;
+    background-color: #171717;
     float: left;
 }
 
 .content {
  width: auto;
+    margin-left: 250px;
     height: 100%;
-    background-color: #fff
+    background-color: #fff;
+    padding: 15px;
 }
