@@ -51,14 +51,6 @@ div#container{
     float: left;
 }
 
-.content {
- width: auto;
-    margin-left: 250px;
-    height: 100%;
-    background-color: #fff;
-    padding: 15px;
-}
-
 ul#nav {
     
 }
@@ -87,5 +79,19 @@ ul#nav li a:hover{
 ul#nav li a.selected {
   background-color: #030303;
      color: #fff;
-    padding-left: 30px;
 }
+
+
+.content {
+ width: auto;
+    margin-left: 250px;
+    height: 100%;
+    background-color: #fff;
+    padding: 15px;
+}
+
+.content p{
+    
+}
+
+
