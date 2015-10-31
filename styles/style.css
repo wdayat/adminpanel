@@ -92,7 +92,7 @@ ul#nav li a.selected {
 
 .content p{
    color: #424242;
-    font-size: 0.8em;
+    font-size: 0.8em; 
 }
 
 div#box {
@@ -112,5 +112,14 @@ div#box .box-panel {
   padding: 15px;
     background-color: #fff;
     color: #333;
+}
+
+a.mobile{
+    display: block;
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+    padding: 7px;
+    
 }
 
